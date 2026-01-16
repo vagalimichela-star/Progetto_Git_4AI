@@ -1,8 +1,46 @@
-<html>
-<head>
-<title>sito principale 4ai</title>
-</head>
-<body>
-questa e' la mia prima repo
-</body>
-</html>
+<HTML>
+<HEAD>
+<TITLE>RECENSIONE HOTEL</TITLE>
+</HEAD>
+<BODY BGCOLOR="30d5c8">
+<H2><B>Recensione hotel</B></H2>
+<P>
+<FORM METHOD="post" ACTION="mailto:hotel@ispl.it">
+<P>il tuo nome e cognome:<INPUT TYPE="text" NAME="mittente" SIZE="35"> <BR>
+<BR>
+
+<FORM>
+Scegli il capoluogo<BR>
+<SELECT MULTIPLE NAME="CAPOLUOGO">
+<OPTION VALUE="1">Bari</OPTION>
+<OPTION VALUE="2">Lecce</OPTION>
+<OPTION VALUE="3">BAT</OPTION>
+<OPTION VALUE="4">Foggia</OPTION>
+<OPTION VALUE="5">Brindisi</OPTION>
+<OPTION VALUE="6">Taranto</OPTION>
+</SELECT>
+</FORM> 
+
+<FORM>
+Esperienza con i servizi<BR>
+<INPUT TYPE="radio" NAME="voto" VALUE="Positivo">Positivo<BR>
+<INPUT TYPE="radio" NAME="voto" VALUE="Negativo">Negativo<BR>
+</FORM>
+
+<FORM>
+SERVIZI<BR>
+<INPUT TYPE="checkbox" NAME="s1" VALUE="accoglienza">accoglienza<BR>
+<INPUT TYPE="checkbox" NAME="s2" VALUE="pulizia">pulizia<BR>
+<INPUT TYPE="checkbox" NAME="s3" VALUE="ristorante">ristorante<BR>
+<INPUT TYPE="checkbox" NAME="s4" VALUE="camera">camera<BR>
+</FORM>
+
+
+<P>scrivi qua il tuo commento
+<P><TEXTAREA NAME="domanda" ROWS="10" COLS="50"></TEXTAREA>
+<P>premi sul tasto <I>invia</I> quando hai completato il modulo,sul tasto <I>annulla</I> se vuoi rifare
+<P><INPUT TYPE="submit" VALUE="invia" NAME="B1">
+<INPUT TYPE="reset" VALUE="Annulla" NAME="B2">
+</FORM>
+</BODY>
+</HTML>
